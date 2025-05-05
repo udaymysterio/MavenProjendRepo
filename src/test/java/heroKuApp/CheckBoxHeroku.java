@@ -130,12 +130,15 @@ public class CheckBoxHeroku {
 		Actions actioner = new Actions(driver);
 //		actioner.click(epagescroll).build().perform();
 		actioner.sendKeys(Keys.ARROW_DOWN).perform();
+		Thread.sleep(2000);
 		actioner.sendKeys(Keys.ARROW_DOWN).perform();
 		Thread.sleep(2000);
 		actioner.sendKeys(Keys.ARROW_UP).perform();
+		Thread.sleep(2000);
 		actioner.sendKeys(Keys.ARROW_UP).perform();
 		Thread.sleep(2000);
 		actioner.sendKeys(Keys.ARROW_DOWN).perform();
+		Thread.sleep(2000);
 		actioner.sendKeys(Keys.ARROW_DOWN).perform();
 		Thread.sleep(2000);
 		driver.close();
