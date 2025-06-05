@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 //import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class SeScrollApp {
+public class SeScrollApp  {
 	
 	private By esignatures = By.xpath("//span[text()='# eSignatures']");
 	private By esignscroll = By.xpath("(//mat-icon[@role='img'][normalize-space()='more_vert'])[13]");
