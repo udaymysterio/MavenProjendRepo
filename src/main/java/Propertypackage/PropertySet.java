@@ -23,10 +23,10 @@ public class PropertySet {
         File propFile = new File(System.getProperty("user.dir") + "\\src\\main\\java\\config\\config.properties");
         FileInputStream fisa = new FileInputStream(propFile);
         prop.load(fisa);
-/*        dataProp = new Properties();
-        File dataPropFile = new File(System.getProperty("user.dir") + "\\src\\main\\java\\com\\qount\\qa\\testdata\\testdata.properties");
+    /*    dataProp = new Properties();
+        File dataPropFile = new File(System.getProperty("user.dir") + "\\src\\main\\java\\testdata\\testdata.properties");
         FileInputStream fisb = new FileInputStream(dataPropFile);
-        prop.load(fisb);     */
-    }
+        prop.load(fisb);
+    */  }
 }
 
